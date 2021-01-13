@@ -1,0 +1,35 @@
+@import "_colors.scss";
+
+a {
+  color: $white;
+}
+
+.announcements-bar {
+  background-color: $darkGray;
+  height: 42px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.announcements-container {
+  color: $white;
+  grid-column-end: -2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.referral-container{
+  grid-column-end: -1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  a {
+    text-decoration: none;
+    margin-right: 50px;
+  }
+  a:hover {
+    text-decoration: underline;
+    text-decoration-color: $yellow;
+  }
+}
