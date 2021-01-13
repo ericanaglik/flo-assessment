@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import './AnnouncementsBar.scss'
 
 const AnnouncementsBar = props => {
@@ -14,9 +14,9 @@ const AnnouncementsBar = props => {
         <a href="url">Refer &amp; Get 15%</a>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default AnnouncementsBar;
+export default AnnouncementsBar
 
 
