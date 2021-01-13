@@ -5,6 +5,8 @@
   padding-left: 40px;
   padding-right: 40px;
   border-bottom: 2px solid $gray;
+  max-width: 1600px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 290px 1fr 260px 55px;
   a {
