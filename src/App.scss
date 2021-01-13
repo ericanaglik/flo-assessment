@@ -1,0 +1,28 @@
+@import "_colors.scss";
+
+.landing-container {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  overflow: hidden;
+}
+
+.header {
+  background: url("https://cdn.shopify.com/s/files/1/0284/2666/6115/files/DogLovers_Hero_Desktop_0120.jpg?v=1579042346") center center;
+  width: 1600px;
+  background-position: fixed;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: auto;
+  
+  h1 {
+    color: $white;
+    font-size: 5em;
+    max-width: 800px;
+    text-align: center;
+  }
+}
