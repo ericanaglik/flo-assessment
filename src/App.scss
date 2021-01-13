@@ -1,4 +1,5 @@
 @import "_colors.scss";
+@import "_fonts.scss";
 
 .landing-container {
   max-width: 1600px;
@@ -24,7 +25,8 @@
   
   h1 {
     color: $white;
-    font-size: 5em;
+    font-size: 4.4em;
+    line-height: 90px;
     max-width: 800px;
     text-align: center;
   }
@@ -39,22 +41,24 @@
     max-width: 693px;
     width: 100%;
     height: auto;
+    padding-left: 30px;
   }
 
   .text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 50px;
     padding-right: 50px;
 
     h2 {
-      font-size: 40px;
+      font-size: 35px;
       padding-bottom: 35px;
       margin: 0px;
     }
 
     p {
-      font-size: 20px;
+      font-size: 16.5px;
       margin: 0;
       padding-bottom: 25px;
     }
