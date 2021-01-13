@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import AnnouncementsBar from './AnnouncementsBar'
+import NavBar from './NavBar'
+
 
 function App() {
   return (
     <div>
-    <AnnouncementsBar/>
+      <NavBar/>
 
     </div>
   );
