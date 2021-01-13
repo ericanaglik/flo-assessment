@@ -25,6 +25,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  padding-right: 50px;
   height: 60px;
 }
 .link-container {
@@ -37,11 +38,6 @@
   border-bottom: 6px solid $darkYellow;
 }
 
-.search {
-  grid-column-start: 3;
-  display: flex;
-  align-items: center;
-}
 .cart {
   grid-column-start: 4;
   display: flex;
@@ -49,12 +45,25 @@
 }
 
 input {
-  width: 253px;
+  width: 225px;
   height: 44px;
   font-size: 18px;
+  border: none;
 }
 
 .search-icon {
   position: relative;
-  top: 10px;
+  color: $searchIcon;
+}
+
+.search {
+  grid-column-start: 3;
+  position: relative;
+  top: 7px;
+  display: flex;
+  justify-content:center;
+  margin-right: 10px;
+  height: 45px;
+  border: 1px solid $searchBorder;
+  border-radius: 5px;
 }

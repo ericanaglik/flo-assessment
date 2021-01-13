@@ -29,8 +29,8 @@ const NavBar = props => {
         <div className="search">
           <form>
             <input type="search" placeholder="What are you looking for?"></input>
-          </form>
-          <FontAwesomeIcon className="search-icon" icon={faSearch}/>
+            <FontAwesomeIcon className="search-icon" icon={faSearch}/>
+          </form>  
         </div>
         <div className="cart">
           <FontAwesomeIcon icon={faShoppingCart}/>
