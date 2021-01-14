@@ -27,6 +27,7 @@ function App() {
         <CardSection 
           titleText={"Functional and Dog-Approved!"}
           buttonText={"Shop Dog-Friendly Rugs"}
+          backgroundColorClassName={"card-section-container-white"}
         >
           <IconCard
             iconURL={"https://cdn.shopify.com/s/files/1/0284/2666/6115/files/Ruggable-Icon-ValueProp-Washable.svg?4206"}
@@ -47,6 +48,7 @@ function App() {
         <CardSection 
           titleText={"Cleanup Made Easy"}
           buttonText={"Shop Dog-Friendly Rugs"}
+          backgroundColorClassName={"card-section-container-gray"}
         >
           <VideoCard
             videoURL={"https://cdn.shopify.com/s/files/1/0268/0337/2125/files/01-Dog_Gif-_Messy_Paws-_500x375-_Steps_-_20190807_A.mp4?3151"}
@@ -68,6 +70,7 @@ function App() {
           titleText={"Pup-Approved Rugs"}
           descriptionText={"Make your home the perfect pet sanctuary with our best-loved rugs!"}
           buttonText={"Shop Dog-Friendly Rugs"}
+          backgroundColorClassName={"card-section-container-white"}
         />
       </div>
     </div>

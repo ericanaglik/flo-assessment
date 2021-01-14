@@ -6,12 +6,12 @@ const CardSection = props => {
   const {
     titleText,
     descriptionText,
-    backgroundColor,
+    backgroundColorClassName,
     children,
     buttonText
   } = props
   return (
-    <div className="card-section-container">
+    <div className={backgroundColorClassName}>
       <h2>{titleText}</h2>
       <p>{descriptionText}</p>
       <div className="card-container">
