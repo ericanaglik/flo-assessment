@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.scss';
 import NavBar from './NavBar'
 import Button from './Button'
+import CardSection from './CardSection'
 
 
 function App() {
@@ -21,6 +22,19 @@ function App() {
             <Button buttonText={"Shop Best Sellers"}/>
           </div>
         </div>
+        <CardSection 
+          titleText={"Functional and Dog-Approved!"}
+          buttonText={"Shop Dog-Friendly Rugs"}
+        />
+        <CardSection 
+          titleText={"Cleanup Made Easy"}
+          buttonText={"Shop Dog-Friendly Rugs"}
+        />
+        <CardSection 
+          titleText={"Pup-Approved Rugs"}
+          descriptionText={"Make your home the perfect pet sanctuary with our best-loved rugs!"}
+          buttonText={"Shop Dog-Friendly Rugs"}
+        />
       </div>
     </div>
   );
