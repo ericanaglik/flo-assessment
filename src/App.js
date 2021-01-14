@@ -4,6 +4,7 @@ import NavBar from './NavBar'
 import Button from './Button'
 import CardSection from './CardSection'
 import IconCard from './IconCard'
+import VideoCard from './VideoCard'
 
 
 function App() {
@@ -46,7 +47,23 @@ function App() {
         <CardSection 
           titleText={"Cleanup Made Easy"}
           buttonText={"Shop Dog-Friendly Rugs"}
-        />
+        >
+          <VideoCard
+            videoURL={"https://cdn.shopify.com/s/files/1/0268/0337/2125/files/01-Dog_Gif-_Messy_Paws-_500x375-_Steps_-_20190807_A.mp4?3151"}
+            titleText={"Stain"}
+            descriptionText={"Muddy paws? Pet hair? Spills? Pee accidents? Don’t worry, we’ve got you covered."}
+          />
+          <VideoCard
+            videoURL={"https://cdn.shopify.com/s/files/1/0268/0337/2125/files/02-Dog_Gif-_Messy_Paws-_500x375-_Steps_-_20190807_B.mp4?3151"}
+            titleText={"Peel"}
+            descriptionText={"When it’s time to wash, simply peel off the Rug Cover from the Rug Pad."}
+          />
+          <VideoCard
+            videoURL={"https://cdn.shopify.com/s/files/1/0268/0337/2125/files/03-Dog_Gif-_Messy_Paws-_500x375-_Steps_-_20190807_C.mp4?3150"}
+            titleText={"Wash"}
+            descriptionText={"Toss it in the washer, dry, and enjoy your freshly cleaned rug!"}
+          />
+        </CardSection>
         <CardSection 
           titleText={"Pup-Approved Rugs"}
           descriptionText={"Make your home the perfect pet sanctuary with our best-loved rugs!"}
