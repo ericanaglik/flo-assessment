@@ -1,0 +1,44 @@
+@import "_colors.scss";
+@import "_fonts.scss";
+
+.article-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid $cardBorder;
+  max-width: 755px;
+  height: auto;
+  width: 100%;
+  margin: 15px;
+  padding-bottom: 25px;
+
+  h3 {
+    margin-bottom: 0px;
+  }
+
+  a{
+    text-decoration-color: $yellow;
+    color: $black;
+  }
+  a:hover {
+    text-decoration-color: $darkGray;
+    .arrow {
+      margin-left: 15px;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  img:hover {
+    opacity: 80%;
+  }
+
+  p {
+    max-width: 435px;
+  }
+
+}

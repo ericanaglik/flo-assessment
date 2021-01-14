@@ -6,6 +6,7 @@ import CardSection from './CardSection'
 import IconCard from './IconCard'
 import VideoCard from './VideoCard'
 import ShopCard from './ShopCard'
+import ArticleCard from './ArticleCard'
 
 
 function App() {
@@ -92,6 +93,21 @@ function App() {
             photoURL={"https://cdn.shopify.com/s/files/1/1033/0751/products/soraya-trellis-ash-grey-A-RC-0342-57_720x720.jpg?v=1577031433"}
             titleText={"Vintage Daisy Bordered Blue Rug"}
             priceRange={"$80 - $399"}
+          />
+        </CardSection>
+        <CardSection 
+          titleText={"Learn From the Pros"}
+          backgroundColorClassName={"card-section-container-white"}
+        >
+          <ArticleCard
+            photoURL={"https://cdn.shopify.com/s/files/1/1033/0751/files/UGC-content-2.jpg?v=1560468076"}
+            titleText={"Your Pet Questions, Answered!"}
+            descriptionText={"Got questions about Ruggable's commitment to making pet-friendly rugs? We've got the answers."}
+          />
+          <ArticleCard
+            photoURL={"https://cdn.shopify.com/s/files/1/1033/0751/files/UGC-content.jpg?v=1560467904"}
+            titleText={"Why You Need a Washable Rug"}
+            descriptionText={"Still debating whether you need a washable rug? Here's why we think they're good investments for your home."}
           />
         </CardSection>
       </div>
