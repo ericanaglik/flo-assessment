@@ -7,4 +7,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  h2 {
+    margin-top: 0px;
+    padding-top: 70px;
+  }
+  button {
+    margin-top: 40px;
+  }
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
 }
