@@ -8,7 +8,6 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .header {
@@ -82,5 +81,14 @@
   }
 }
 
+.ruggable-real-life-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 
-
+  h2 {
+    margin-bottom: 0px;
+  }
+}

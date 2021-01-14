@@ -110,6 +110,11 @@ function App() {
             descriptionText={"Still debating whether you need a washable rug? Here's why we think they're good investments for your home."}
           />
         </CardSection>
+        <div className="ruggable-real-life-container">
+          <h2><b>#Ruggable</b> in Real Life.</h2>
+          <p>Look how our washable rugs have been pup-approved in real life.</p>
+          <Button buttonText={"Shop Dog-Friendly Rugs"}/>
+        </div>
       </div>
     </div>
   );
