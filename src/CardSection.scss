@@ -6,9 +6,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 80px;
 
   h2 {
     margin-top: 0px;
+    margin-bottom: 0px;
     padding-top: 70px;
   }
   button {
@@ -22,9 +24,11 @@
   flex-direction: column;
   align-items: center;
   background-color: $bgGray;
+  padding-bottom: 80px;
 
   h2 {
     margin-top: 0px;
+    margin-bottom: 0px;
     padding-top: 70px;
   }
   button {
