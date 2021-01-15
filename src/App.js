@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.scss';
 import NavBar from './NavBar'
 import Button from './Button'
@@ -7,6 +6,7 @@ import IconCard from './IconCard'
 import VideoCard from './VideoCard'
 import ShopCard from './ShopCard'
 import ArticleCard from './ArticleCard'
+import Footer from './Footer'
 
 
 function App() {
@@ -116,6 +116,7 @@ function App() {
           <Button buttonText={"Shop Dog-Friendly Rugs"}/>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
