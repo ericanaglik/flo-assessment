@@ -5,9 +5,10 @@
   background-color: $darkGray;
   height: 42px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
   a {
     color: $white;
+    font-size: 20px;
   }
 }
 
@@ -17,6 +18,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  a {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
 }
 
 .referral-container{
@@ -32,4 +37,17 @@
     text-decoration: underline;
     text-decoration-color: $yellow;
   }
+}
+
+@media only screen and (max-width: 1030px) {
+
+  .referral-container {
+    display: none;
+  }
+
+  .announcements-bar {
+    display: flex;
+    justify-content: center;
+  }
+
 }
