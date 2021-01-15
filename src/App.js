@@ -55,16 +55,19 @@ function App() {
           <VideoCard
             videoURL={"https://cdn.shopify.com/s/files/1/0268/0337/2125/files/01-Dog_Gif-_Messy_Paws-_500x375-_Steps_-_20190807_A.mp4?3151"}
             titleText={"Stain"}
+            number={"1"}
             descriptionText={"Muddy paws? Pet hair? Spills? Pee accidents? Don’t worry, we’ve got you covered."}
           />
           <VideoCard
             videoURL={"https://cdn.shopify.com/s/files/1/0268/0337/2125/files/02-Dog_Gif-_Messy_Paws-_500x375-_Steps_-_20190807_B.mp4?3151"}
             titleText={"Peel"}
+            number={"2"}
             descriptionText={"When it’s time to wash, simply peel off the Rug Cover from the Rug Pad."}
           />
           <VideoCard
             videoURL={"https://cdn.shopify.com/s/files/1/0268/0337/2125/files/03-Dog_Gif-_Messy_Paws-_500x375-_Steps_-_20190807_C.mp4?3150"}
             titleText={"Wash"}
+            number={"3"}
             descriptionText={"Toss it in the washer, dry, and enjoy your freshly cleaned rug!"}
           />
         </CardSection>

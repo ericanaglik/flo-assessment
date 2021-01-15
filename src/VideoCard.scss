@@ -19,6 +19,25 @@
   }
 }
 
+.number-circle {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+  background: $gray;
+  text-align: center;
+}
+
+.title  {
+  position: relative;
+  left: 10px;
+  top: 8px;
+}
+
+.number-title-container {
+  display: flex;
+}
+
 @media only screen and (max-width: 750px) {
   .video-card-container {
     display: flex;
