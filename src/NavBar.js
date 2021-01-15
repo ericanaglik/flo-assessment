@@ -12,6 +12,13 @@ const NavBar = props => {
       <div className="nav-wrapper">
         <div className="navbar">
           <div className="logo">
+            <img
+              height="20px"
+              width="20px"
+              style={{paddingRight: "15px"}}
+              className="hamburger"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png"
+            ></img>
             <img  
               height="24px"
               width="230px"
