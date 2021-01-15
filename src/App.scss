@@ -70,12 +70,15 @@
       max-width: 693px;
       width: 100%;
       height: auto;
+      padding-left: 0px;
+      margin: 0 auto;
     }
   
     .text-container {
       display: flex;
       flex-direction: column;
       align-items: center;
+      margin-left: 0px;
       padding: 40px;
     }
   }
