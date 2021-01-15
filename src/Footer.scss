@@ -28,6 +28,8 @@
 .footer-container {
   max-width: 1085px;
   margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 30px;
 }
 
 .footer-links {
@@ -50,6 +52,47 @@
   }
 }
 
-.connect {
+.connect-socialize {
   max-width: 255px;
+  
+  button {
+    border-radius: 0px;
+    padding: 3px;
+    background-color: $connectFormLight;
+    color: $footerGray;
+    font-size: 15px;
+  }
+  input {
+    background-color: $connectFormDark;
+    height: 30px;
+    padding-left: 10px;
+  }
+  input::placeholder {
+    font-style: italic;
+    color: #b4bbc3;
+    font-size: 15px;
+  }
+  form {
+    display: flex;
+    width: 270px;
+    border-bottom: 2px solid $connectFormLight;
+  }
+
+}
+
+.company-currency {
+  button {
+    border-radius: 0px;
+    padding: 5px 10px 5px 10px;
+  }
+}
+
+.usd, .usd:hover {
+  background-color: $white;
+}
+
+
+.cad, .cad:hover {
+  background-color: $gray;
+  color: $searchIcon;
 }

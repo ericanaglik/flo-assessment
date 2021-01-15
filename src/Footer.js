@@ -12,7 +12,7 @@ const Footer = props => {
           <p>**Discounts do not apply to sale items, swatches or gift cards unless otherwise noted and cannot be combined with any other offers. For a full list of exclusions please see our <a href="url">FAQ</a>.</p>
         </div>
         <div className="footer-links">
-          <div className="company">
+          <div className="company-currency">
             <h4>COMPANY</h4>
             <ul>
               <li>About Us</li>
@@ -26,6 +26,8 @@ const Footer = props => {
               <li>Affiliate</li>
               <li>Get 15%</li>
             </ul>
+            <h4>CURRENCY</h4>
+            <button className="usd">USD</button><button className="cad">CAD</button>
           </div>
           <div className="shop">
             <h4>SHOP</h4>
@@ -53,9 +55,18 @@ const Footer = props => {
               <li>Accessibility</li>
             </ul>
           </div>
-          <div className="connect">
+          <div className="connect-socialize">
             <h4>CONNECT</h4>
             <p>Sign up to receive 10% OFF your first order, exclusive offers and design updates.</p>
+            <form>
+              <input type="email" placeholder="Enter your email"></input><button className="email-submit">SUBMIT</button>
+            </form>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <h4>SOCIALIZE</h4>
           </div>
         </div>
       </div>
