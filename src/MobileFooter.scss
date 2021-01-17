@@ -1,0 +1,95 @@
+@import "_colors.scss";
+@import "_fonts.scss";
+
+.mobile-subscribe-offer {
+  background-color: $subscribeDark;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+
+  h2 {
+    color: $white;
+    margin-bottom: 0px;
+  }
+
+  p {
+    color: white;
+    font-size: 15px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+  }
+
+  input {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  input::placeholder {
+    text-align: center;
+  }
+
+  button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: $subscribeLight;
+    border: 2px solid $subscribeLight;
+  }
+  button:hover {
+    background-color: $subscribeDark;
+    color: $white;
+  }
+}
+
+.mobile-footer {
+  background-color: $footerGray;
+  color: $white;  
+
+  h4 {
+    color: $lightYellow;
+    margin-bottom: 0px;
+  }
+  select {
+    width: 80px;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.company, .shop, .support {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  margin-right: 140px;
+}
+
+.footer-container {
+  padding-left: 30px;
+}
+
+.disclaimer-text-container {
+  color: $disclaimerMobileText;
+  padding-bottom: 30px;
+
+  a {
+    color: $white;
+  }
+  a:hover {
+    color: $lightYellow;
+  }
+}
