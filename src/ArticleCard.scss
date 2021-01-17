@@ -42,3 +42,9 @@
   }
 
 }
+
+@media only screen and (max-width: 750px) {
+  .article-card-container {
+    max-width: 670px;
+  }
+}
