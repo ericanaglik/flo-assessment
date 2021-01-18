@@ -12,7 +12,7 @@ const ShopCard = props => {
   return (
     <div className="shop-card-container">
       <img src={photoURL}></img>
-      <p><b>{titleText}</b></p>
+      <p className="rug-title"><b>{titleText}</b></p>
       <p><StarRating rating={rating}/></p>
       <p>{priceRange}</p>
     </div>
