@@ -74,6 +74,10 @@
 
 @media only screen and (max-width: 750px) {
   .article-card-container {
-    max-width: 670px;
+    margin: 0 auto;
+    max-width: 450px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 50px;
   }
 }
