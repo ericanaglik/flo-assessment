@@ -72,6 +72,12 @@ Cleanup Made Easy Section
     justify-content: space-around;
     width: 100%;
   }
+  .functional-dog-approved, .pup-approved-rugs, .learn-from-the-pros, .cleanup-made-easy {
+    h2, p {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
 }
 
 @media only screen and (max-width: 1175px) {
