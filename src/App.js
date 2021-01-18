@@ -99,21 +99,25 @@ function App() {
           <ShopCard
             photoURL={"https://cdn.shopify.com/s/files/1/1033/0751/products/vintage-daisy-bordered-blue-A-RC-RE133-57_720x720.jpg?v=1604073800"}
             titleText={"Vintage Daisy Bordered Blue Rug"}
+            rating={4.5}
             priceRange={"$80 - $399"}
           />
           <ShopCard
             photoURL={"https://cdn.shopify.com/s/files/1/1033/0751/products/cambria-sapphire-V2-A-RC-JB013-57_1f2eafb0-9bed-41e6-9ab3-414866b2296a_720x720.jpg?v=1602214970"}
             titleText={"Vintage Daisy Bordered Blue Rug"}
+            rating={5}
             priceRange={"$80 - $399"}
           />
           <ShopCard
             photoURL={"https://cdn.shopify.com/s/files/1/1033/0751/products/linear-aztec-black-A-RC-0208-57_720x720.jpg?v=1571439103"}
             titleText={"Vintage Daisy Bordered Blue Rug"}
+            rating={4.5}
             priceRange={"$80 - $399"}
           />
           <ShopCard
             photoURL={"https://cdn.shopify.com/s/files/1/1033/0751/products/soraya-trellis-ash-grey-A-RC-0342-57_720x720.jpg?v=1577031433"}
             titleText={"Vintage Daisy Bordered Blue Rug"}
+            rating={4.5}
             priceRange={"$80 - $399"}
           />
         </CardSection>

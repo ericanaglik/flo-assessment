@@ -1,18 +1,19 @@
 import React from 'react'
 import './ShopCard.scss'
+import StarRating from './StarRating'
 
 const ShopCard = props => {
   const {
     photoURL,
     titleText,
-    children,
+    rating,
     priceRange
   } = props
   return (
     <div className="shop-card-container">
       <img src={photoURL}></img>
       <p><b>{titleText}</b></p>
-      <p>{children}</p>
+      <p><StarRating rating={rating}/></p>
       <p>{priceRange}</p>
     </div>
   )
