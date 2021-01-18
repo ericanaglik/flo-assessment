@@ -13,8 +13,8 @@ const MobileFooter = props => {
           <button className="subscribe">Subscribe</button>
         </form>
       </div>
-      <div className="footer-container">
-        <div className="footer-links">
+      <div className="mobile-footer-container">
+        <div className="mobile-footer-links">
             <h4>COMPANY</h4>
             <div className="company">
               <ul>
@@ -33,7 +33,7 @@ const MobileFooter = props => {
               </ul>
           </div>
           <h4>SHOP</h4>
-          <div className="shop">
+          <div className="mobile-shop">
             <ul>
               <li>New Arrivals</li>
               <li>All Rug Collections</li>
@@ -46,7 +46,7 @@ const MobileFooter = props => {
             </ul>
           </div>
           <h4>SUPPORT</h4>
-          <div className="support">
+          <div className="mobile-support">
             <ul>
               <li>FAQs</li>
               <li>Customer Account</li>
@@ -71,7 +71,7 @@ const MobileFooter = props => {
           <option value="CAD">CAD</option>
         </select>
         </div>
-        <div className="disclaimer-text-container">
+        <div className="mobile-disclaimer-text-container">
           <p><b>*Shipping Exclusions Apply</b></p>
           <p>Ruggable.com site-wide FREE SHIPPING applies to standard shipping and handling within the U.S., and Canada, excluding Hawaii, Alaska, and U.S. Territories (other than Washington, D.C.).</p>
           <p>**Discounts do not apply to sale items, swatches or gift cards unless otherwise noted and cannot be combined with any other offers. For a full list of exclusions please see our <a href="url">FAQ</a>.</p>
