@@ -70,6 +70,16 @@ Cleanup Made Easy Section
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-right: 40px;
+    
+  }
+}
+
+@media only screen and (max-width: 1175px) {
+  .pup-approved-rugs {
+    .card-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
   }
 }
