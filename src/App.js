@@ -1,4 +1,5 @@
 import './App.scss';
+import {React, useEffect, useState } from 'react'
 import NavBar from './NavBar'
 import Button from './Button'
 import CardSection from './CardSection'
@@ -7,9 +8,27 @@ import VideoCard from './VideoCard'
 import ShopCard from './ShopCard'
 import ArticleCard from './ArticleCard'
 import Footer from './Footer'
+import MobileFooter from './MobileFooter'
 
-
+console.log(window)
 function App() {
+  const [windowDimension, setWindowDimension] = useState();
+
+  useEffect(() => {
+    setWindowDimension(window.innerWidth);
+  }, []);
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowDimension(window.innerWidth);
+    }
+    // so the windowDimension updates on resize
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const isMobile = windowDimension <= 732;
+
   return (
     <div>
       <NavBar/>
@@ -29,7 +48,7 @@ function App() {
         <CardSection 
           titleText={"Functional and Dog-Approved!"}
           buttonText={"Shop Dog-Friendly Rugs"}
-          backgroundColorClassName={"card-section-container-white"}
+          backgroundColorClassName={"functional-dog-approved"}
         >
           <IconCard
             iconURL={"https://cdn.shopify.com/s/files/1/0284/2666/6115/files/Ruggable-Icon-ValueProp-Washable.svg?4206"}
@@ -50,7 +69,7 @@ function App() {
         <CardSection 
           titleText={"Cleanup Made Easy"}
           buttonText={"Shop Dog-Friendly Rugs"}
-          backgroundColorClassName={"card-section-container-gray"}
+          backgroundColorClassName={"cleanup-made-easy"}
         >
           <VideoCard
             videoURL={"https://cdn.shopify.com/s/files/1/0268/0337/2125/files/01-Dog_Gif-_Messy_Paws-_500x375-_Steps_-_20190807_A.mp4?3151"}
@@ -75,7 +94,7 @@ function App() {
           titleText={"Pup-Approved Rugs"}
           descriptionText={"Make your home the perfect pet sanctuary with our best-loved rugs!"}
           buttonText={"See More Rugs"}
-          backgroundColorClassName={"card-section-container-white"}
+          backgroundColorClassName={"pup-approved-rugs "}
         >
           <ShopCard
             photoURL={"https://cdn.shopify.com/s/files/1/1033/0751/products/vintage-daisy-bordered-blue-A-RC-RE133-57_720x720.jpg?v=1604073800"}
@@ -100,7 +119,7 @@ function App() {
         </CardSection>
         <CardSection 
           titleText={"Learn From the Pros"}
-          backgroundColorClassName={"card-section-container-white"}
+          backgroundColorClassName={"learn-from-the-pros"}
         >
           <ArticleCard
             photoURL={"https://cdn.shopify.com/s/files/1/1033/0751/files/UGC-content-2.jpg?v=1560468076"}
@@ -119,7 +138,7 @@ function App() {
           <Button buttonText={"Shop Dog-Friendly Rugs"}/>
         </div>
       </div>
-      <Footer/>
+      { isMobile ? (<MobileFooter />) : (<Footer />) }
     </div>
   );
 }
