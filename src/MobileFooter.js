@@ -16,7 +16,7 @@ const MobileFooter = props => {
       <div className="mobile-footer-container">
         <div className="mobile-footer-links">
             <h4>COMPANY</h4>
-            <div className="company">
+            <div className="mobile-company">
               <ul>
                 <li>About Us</li>
                 <li>Blog</li>
