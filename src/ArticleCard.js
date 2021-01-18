@@ -11,12 +11,15 @@ const ArticleCard = props => {
     descriptionText
   } = props
   return (
-    <div className="article-card-container">
+    <a className="article-card-container">
       <img src={photoURL}></img>
       <h3>{titleText}</h3>
       <p>{descriptionText}</p>
-      <a href="url">Read More<FontAwesomeIcon className="arrow" icon={faChevronRight}/></a>
-    </div>
+      <a className="read-more">
+        <a href="url">Read More <div className="read-more-underline"></div></a>
+        <FontAwesomeIcon className="arrow" icon={faChevronRight}/>
+      </a>
+    </a>
   )
 }
 
