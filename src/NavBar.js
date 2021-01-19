@@ -40,7 +40,7 @@ const NavBar = () => {
                   <ImageLink
                     imageURL="https://images.ctfassets.net/9y4fi2gkk4ov/4FTtgkVzWZdooZIc6CS3R1/80d760e4bb7bf4908195b93c0f74212b/Runner_09152020.jpg?w=160&fit=scale&fm=png&fl=png8"
                     url="url"
-                    linkTitle="Runner"
+                    linkTitle="Runners"
                   />
                   <ImageLink
                     imageURL="https://images.ctfassets.net/9y4fi2gkk4ov/6muSAA4OeRK8WQmctIzrms/52688a8b7e67ccd02c7a85fac0f8ff30/3x5_09152020.jpg?w=160&fit=scale&fm=png&fl=png8"
@@ -77,19 +77,44 @@ const NavBar = () => {
                 </div>
               </div>
             </NavLink>
-            <NavLink name="Colors" url="url" />
-            <div className="link-container">
-              <a href="url">Style</a>
-              <div className="hover-bottom"></div>
-            </div>
-            <div className="link-container">
-              <a href="url">More</a>
-              <div className="hover-bottom"></div>
-            </div>
-            <div className="link-container">
-              <a href="url">How It Works</a>
-              <div className="hover-bottom"></div>
-            </div>
+            <NavLink name="Colors" url="url">
+              <div className="menu-images-container-colors">
+                <div className="images-top">
+                  <ImageLink
+                    imageURL="https://images.ctfassets.net/9y4fi2gkk4ov/1olKansQ7emn1UOfusdP5S/1e62601b67c8a77e57bce7e73cb3ee99/Swatch_BG.svg?w=160&fit=scale&fm=png&fl=png8"
+                    url="url"
+                    linkTitle="Blue & Green"
+                  />
+                  <ImageLink
+                    imageURL="https://images.ctfassets.net/9y4fi2gkk4ov/21i9HtiAPrV2gOcozIbTAJ/3e16d99120d4856ca6549ca7eeb68f5e/Swatch_Black_Noir.svg?w=160&fit=scale&fm=png&fl=png8"
+                    url="url"
+                    linkTitle="Black"
+                  />
+                  <ImageLink
+                    imageURL="https://images.ctfassets.net/9y4fi2gkk4ov/2AA5lhamMlOdd53fno31nz/f46934922b20a08dc7714c7801ac10c6/Swatch_BlaGray.svg?w=160&fit=scale&fm=png&fl=png8"
+                    url="url"
+                    linkTitle="Gray & Silver"
+                  />
+                </div>
+                <div className="images-bottom">
+                  <ImageLink
+                    imageURL="https://images.ctfassets.net/9y4fi2gkk4ov/1xjSgIQ9X3Z1DOBUnNvn0K/9b0e2fa6580702080ebf6ffbdf66d940/Swatch_BrBeige.svg?w=160&fit=scale&fm=png&fl=png8"
+                    url="url"
+                    linkTitle="Naturals"
+                  />
+                  <ImageLink
+                    imageURL="https://images.ctfassets.net/9y4fi2gkk4ov/41PJzWHcLi67extwaCXvXD/bc5b4d9c0d3f9ffa5418a88b0ebb8f82/Swatch_Naturals.svg?w=160&fit=scale&fm=png&fl=png8"
+                    url="url"
+                    linkTitle="White & Cream"
+                  />
+                  <ImageLink
+                    imageURL="https://images.ctfassets.net/9y4fi2gkk4ov/1dabV7rBTiQMMu3Cb28NuW/ef20150a7619025acdecb15ab67b3d5b/Swatch_Colorful.svg?w=160&fit=scale&fm=png&fl=png8"
+                    url="url"
+                    linkTitle="Multicolor"
+                  />
+                </div>
+              </div>
+            </NavLink>
           </div>
           <div className="search">
             <form>

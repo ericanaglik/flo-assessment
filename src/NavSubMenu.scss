@@ -16,6 +16,8 @@
   .menu-shop-link {
     text-decoration: underline;
     text-decoration-color: $darkYellow;
+    position: relative;
+    top: 25px;
   }
 
   .menu-shop-link:hover {
