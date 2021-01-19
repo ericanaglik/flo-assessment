@@ -24,7 +24,7 @@
   }
 }
 
-.referral-container{
+.referral-container {
   grid-column-end: -1;
   display: flex;
   justify-content: flex-end;
@@ -40,7 +40,6 @@
 }
 
 @media only screen and (max-width: 1030px) {
-
   .referral-container {
     display: none;
   }
@@ -49,5 +48,4 @@
     display: flex;
     justify-content: center;
   }
-
 }

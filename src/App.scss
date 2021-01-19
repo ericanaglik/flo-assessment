@@ -1,7 +1,8 @@
 @import "_colors.scss";
 @import "_fonts.scss";
 
-body,html {
+body,
+html {
   overflow-x: hidden;
 }
 
@@ -15,7 +16,8 @@ body,html {
 }
 
 .header {
-  background: url("https://cdn.shopify.com/s/files/1/0284/2666/6115/files/DogLovers_Hero_Desktop_0120.jpg?v=1579042346") center center;
+  background: url("https://cdn.shopify.com/s/files/1/0284/2666/6115/files/DogLovers_Hero_Desktop_0120.jpg?v=1579042346")
+    center center;
   width: 1600px;
   background-position: fixed;
   background-size: cover;
@@ -25,7 +27,7 @@ body,html {
   justify-content: center;
   align-items: center;
   background-size: auto;
-  
+
   h1 {
     color: $white;
     max-width: 800px;
@@ -81,7 +83,7 @@ body,html {
     h2 {
       text-align: center;
     }
-  
+
     .text-container {
       display: flex;
       flex-direction: column;

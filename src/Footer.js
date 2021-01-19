@@ -1,15 +1,24 @@
-import React from 'react'
-import './Footer.scss'
+import React from "react"
+import "./Footer.scss"
 
-const Footer = props => {
-
+const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-container">
         <div className="disclaimer-text-container">
-          <p><b>*Shipping Exclusions Apply</b></p>
-          <p>Ruggable.com site-wide FREE SHIPPING applies to standard shipping and handling within the U.S., and Canada, excluding Hawaii, Alaska, and U.S. Territories (other than Washington, D.C.).</p>
-          <p>**Discounts do not apply to sale items, swatches or gift cards unless otherwise noted and cannot be combined with any other offers. For a full list of exclusions please see our <a href="url">FAQ</a>.</p>
+          <p>
+            <b>*Shipping Exclusions Apply</b>
+          </p>
+          <p>
+            Ruggable.com site-wide FREE SHIPPING applies to standard shipping
+            and handling within the U.S., and Canada, excluding Hawaii, Alaska,
+            and U.S. Territories (other than Washington, D.C.).
+          </p>
+          <p>
+            **Discounts do not apply to sale items, swatches or gift cards
+            unless otherwise noted and cannot be combined with any other offers.
+            For a full list of exclusions please see our <a href="url">FAQ</a>.
+          </p>
         </div>
         <div className="footer-links">
           <div className="company-currency">
@@ -27,7 +36,8 @@ const Footer = props => {
               <li>Get 15%</li>
             </ul>
             <h4>CURRENCY</h4>
-            <button className="usd">USD</button><button className="cad">CAD</button>
+            <button className="usd">USD</button>
+            <button className="cad">CAD</button>
           </div>
           <div className="shop">
             <h4>SHOP</h4>
@@ -57,9 +67,13 @@ const Footer = props => {
           </div>
           <div className="connect-socialize">
             <h4>CONNECT</h4>
-            <p>Sign up to receive 10% OFF your first order, exclusive offers and design updates.</p>
+            <p>
+              Sign up to receive 10% OFF your first order, exclusive offers and
+              design updates.
+            </p>
             <form>
-              <input type="email" placeholder="Enter your email"></input><button className="email-submit">SUBMIT</button>
+              <input type="email" placeholder="Enter your email"></input>
+              <button className="email-submit">SUBMIT</button>
             </form>
             <br></br>
             <br></br>

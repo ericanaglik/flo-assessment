@@ -1,12 +1,8 @@
-import React from 'react'
-import './IconCard.scss'
+import React from "react"
+import "./IconCard.scss"
 
-const IconCard = props => {
-  const {
-    iconURL,
-    titleText,
-    descriptionText
-  } = props
+const IconCard = (props) => {
+  const { iconURL, titleText, descriptionText } = props
   return (
     <div className="icon-card-container">
       <img src={iconURL}></img>

@@ -1,13 +1,15 @@
-import React from 'react'
-import './MobileFooter.scss'
+import React from "react"
+import "./MobileFooter.scss"
 
-const MobileFooter = props => {
-
+const MobileFooter = () => {
   return (
     <div className="mobile-footer">
       <div className="mobile-subscribe-offer">
         <h2>Get 10% Off</h2>
-        <p>Sign up to receive 10% OFF your first order, exclusive offers and design updates.</p>
+        <p>
+          Sign up to receive 10% OFF your first order, exclusive offers and
+          design updates.
+        </p>
         <form>
           <input type="email" placeholder="Enter your email"></input>
           <button className="subscribe">Subscribe</button>
@@ -15,22 +17,22 @@ const MobileFooter = props => {
       </div>
       <div className="mobile-footer-container">
         <div className="mobile-footer-links">
-            <h4>COMPANY</h4>
-            <div className="mobile-company">
-              <ul>
-                <li>About Us</li>
-                <li>Blog</li>
-                <li>#Ruggable</li>
-                <li>Terms of Service</li>
-                <li>Affiliate</li>
-              </ul>
-              <ul>
-                <li>Philanthropy</li>
-                <li>Reviews</li>
-                <li>Careers</li>
-                <li>Privacy</li>
-                <li>Get 15%</li>
-              </ul>
+          <h4>COMPANY</h4>
+          <div className="mobile-company">
+            <ul>
+              <li>About Us</li>
+              <li>Blog</li>
+              <li>#Ruggable</li>
+              <li>Terms of Service</li>
+              <li>Affiliate</li>
+            </ul>
+            <ul>
+              <li>Philanthropy</li>
+              <li>Reviews</li>
+              <li>Careers</li>
+              <li>Privacy</li>
+              <li>Get 15%</li>
+            </ul>
           </div>
           <h4>SHOP</h4>
           <div className="mobile-shop">
@@ -62,19 +64,29 @@ const MobileFooter = props => {
               <li>Accessability</li>
             </ul>
           </div>
-        <h4>SOCIALIZE</h4>
-        <br></br>
-        <br></br>
-        <h4>CURRENCY</h4>
-        <select name="currency" id="currency">
-          <option value="USD">USD</option>
-          <option value="CAD">CAD</option>
-        </select>
+          <h4>SOCIALIZE</h4>
+          <br></br>
+          <br></br>
+          <h4>CURRENCY</h4>
+          <select name="currency" id="currency">
+            <option value="USD">USD</option>
+            <option value="CAD">CAD</option>
+          </select>
         </div>
         <div className="mobile-disclaimer-text-container">
-          <p><b>*Shipping Exclusions Apply</b></p>
-          <p>Ruggable.com site-wide FREE SHIPPING applies to standard shipping and handling within the U.S., and Canada, excluding Hawaii, Alaska, and U.S. Territories (other than Washington, D.C.).</p>
-          <p>**Discounts do not apply to sale items, swatches or gift cards unless otherwise noted and cannot be combined with any other offers. For a full list of exclusions please see our <a href="url">FAQ</a>.</p>
+          <p>
+            <b>*Shipping Exclusions Apply</b>
+          </p>
+          <p>
+            Ruggable.com site-wide FREE SHIPPING applies to standard shipping
+            and handling within the U.S., and Canada, excluding Hawaii, Alaska,
+            and U.S. Territories (other than Washington, D.C.).
+          </p>
+          <p>
+            **Discounts do not apply to sale items, swatches or gift cards
+            unless otherwise noted and cannot be combined with any other offers.
+            For a full list of exclusions please see our <a href="url">FAQ</a>.
+          </p>
         </div>
       </div>
     </div>
