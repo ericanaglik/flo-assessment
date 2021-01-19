@@ -1,8 +1,9 @@
-import React from "react"
+import { React } from "react"
 import "./NavBar.scss"
 import AnnouncementsBar from "./AnnouncementsBar"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faSearch, faShoppingCart } from "@fortawesome/free-solid-svg-icons"
+import NavLink from "./NavLink"
 
 const NavBar = () => {
   return (
@@ -27,14 +28,10 @@ const NavBar = () => {
             ></img>
           </div>
           <div className="nav-links">
-            <div className="link-container">
-              <a href="url">Size</a>
-              <div className="hover-bottom"></div>
-            </div>
-            <div className="link-container">
-              <a href="url">Colors</a>
-              <div className="hover-bottom"></div>
-            </div>
+            <NavLink name="Size" url="url">
+              <p>this is where the stuff on the left goes</p>
+            </NavLink>
+            <NavLink name="Colors" url="url" />
             <div className="link-container">
               <a href="url">Style</a>
               <div className="hover-bottom"></div>
