@@ -2,6 +2,7 @@ import './App.scss';
 import {React, useEffect, useState } from 'react'
 import NavBar from './NavBar'
 import Button from './Button'
+import CardSectionWithButton from './CardSectionWithButton'
 import CardSection from './CardSection'
 import IconCard from './IconCard'
 import VideoCard from './VideoCard'
@@ -45,10 +46,10 @@ function App() {
             <Button buttonText={"Shop Best Sellers"}/>
           </div>
         </div>
-        <CardSection 
+        <CardSectionWithButton 
           titleText={"Functional and Dog-Approved!"}
           buttonText={"Shop Dog-Friendly Rugs"}
-          backgroundColorClassName={"functional-dog-approved"}
+          sectionClassName={"functional-dog-approved"}
         >
           <IconCard
             iconURL={"https://cdn.shopify.com/s/files/1/0284/2666/6115/files/Ruggable-Icon-ValueProp-Washable.svg?4206"}
@@ -65,11 +66,11 @@ function App() {
             titleText={"Water Resistant"}
             descriptionText={"We get it, accidents happen. That’s why our rugs have a built-in water resistant layer that keeps liquid from seeping through and dripping onto the floor."}
           />
-        </CardSection>
-        <CardSection 
+        </CardSectionWithButton>
+        <CardSectionWithButton 
           titleText={"Cleanup Made Easy"}
           buttonText={"Shop Dog-Friendly Rugs"}
-          backgroundColorClassName={"cleanup-made-easy"}
+          sectionClassName={"cleanup-made-easy"}
         >
           <VideoCard
             videoURL={"https://cdn.shopify.com/s/files/1/0268/0337/2125/files/01-Dog_Gif-_Messy_Paws-_500x375-_Steps_-_20190807_A.mp4?3151"}
@@ -89,12 +90,12 @@ function App() {
             number={"3"}
             descriptionText={"Toss it in the washer, dry, and enjoy your freshly cleaned rug!"}
           />
-        </CardSection>
-        <CardSection 
+        </CardSectionWithButton>
+        <CardSectionWithButton 
           titleText={"Pup-Approved Rugs"}
           descriptionText={"Make your home the perfect pet sanctuary with our best-loved rugs!"}
           buttonText={"See More Rugs"}
-          backgroundColorClassName={"pup-approved-rugs "}
+          sectionClassName={"pup-approved-rugs "}
         >
           <ShopCard
             photoURL={"https://cdn.shopify.com/s/files/1/1033/0751/products/vintage-daisy-bordered-blue-A-RC-RE133-57_720x720.jpg?v=1604073800"}
@@ -120,10 +121,10 @@ function App() {
             rating={4.5}
             priceRange={"$80 - $399"}
           />
-        </CardSection>
+        </CardSectionWithButton>
         <CardSection 
           titleText={"Learn From the Pros"}
-          backgroundColorClassName={"learn-from-the-pros"}
+          sectionClassName={"learn-from-the-pros"}
         >
           <ArticleCard
             photoURL={"https://cdn.shopify.com/s/files/1/1033/0751/files/UGC-content-2.jpg?v=1560468076"}

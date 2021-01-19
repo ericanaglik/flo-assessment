@@ -1,7 +1,8 @@
 import React from 'react'
+import Button from './Button'
 import './CardSection.scss'
 
-const CardSection = props => {
+const CardSectionWithButton = props => {
   const {
     titleText,
     descriptionText,
@@ -16,8 +17,9 @@ const CardSection = props => {
       <div className="card-container">
         {children}
       </div>
+      <Button buttonText={buttonText}/>
     </div>
   )
 }
 
-export default CardSection
+export default CardSectionWithButton
