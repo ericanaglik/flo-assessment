@@ -1,0 +1,17 @@
+@import "_colors.scss";
+@import "_fonts.scss";
+
+.nav-sub-menu {
+  position: absolute;
+  left: 0px;
+  top: 102px;
+  background-color: $subMenuBG;
+  height: 450px;
+  width: 100%;
+}
+
+.shop-arrow-link {
+  background-color: white;
+  position: absolute;
+  padding: 18px;
+}
