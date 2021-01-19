@@ -33,7 +33,7 @@ const NavBar = props => {
             <div className="link-container"><a href="url">Colors</a><div className="hover-bottom"></div></div>
             <div className="link-container"><a href="url">Style</a><div className="hover-bottom"></div></div>
             <div className="link-container"><a href="url">More</a><div className="hover-bottom"></div></div>
-            <div className="link-container"><a href="url">How It Works</a></div>
+            <div className="link-container"><a href="url">How It Works</a><div className="hover-bottom"></div></div>
           </div>
           <div className="search">
             <form>
