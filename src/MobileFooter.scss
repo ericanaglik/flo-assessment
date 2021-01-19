@@ -75,7 +75,7 @@
 .mobile-footer-links {
   display: flex;
   flex-direction: column;
-  margin-right: 100px;
+  margin-right: 200px;
 
   ul {
     padding-left: 0px;
@@ -87,6 +87,7 @@
     margin-bottom: 10px;
     font-size: 13.5px;
   }
+
   li:hover {
     text-decoration: underline;
     text-decoration-color: $yellow;
@@ -110,5 +111,11 @@
   }
   p {
     font-size: 13.5px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .mobile-footer-links {
+    margin-right: 100px;
   }
 }
