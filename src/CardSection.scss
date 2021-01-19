@@ -1,9 +1,6 @@
 @import "_colors.scss";
 @import "_fonts.scss";
 
-/***********************************
-Functional and Dog Approved! Section
-***********************************/
 
 .functional-dog-approved, .pup-approved-rugs, .learn-from-the-pros {
   width: 100%;
@@ -28,10 +25,6 @@ Functional and Dog Approved! Section
   }
 }
 
-/*************************
-Cleanup Made Easy Section
-*************************/
-
 .cleanup-made-easy {
   width: 100%;
   display: flex;
@@ -51,6 +44,7 @@ Cleanup Made Easy Section
   }
 }
 
+
 @media only screen and (max-width: 750px) {
   .functional-dog-approved {
     background-color: $bgGray;
@@ -66,11 +60,21 @@ Cleanup Made Easy Section
 }
 
 @media only screen and (max-width: 750px) {
-  .card-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
+
+  .pup-approved-rugs {
+    .card-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+  }
+  .functional-dog-approved, .learn-from-the-pros, .cleanup-made-easy {
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 100%;
+    }
   }
   .functional-dog-approved, .pup-approved-rugs, .learn-from-the-pros, .cleanup-made-easy {
     h2, p {
@@ -89,3 +93,4 @@ Cleanup Made Easy Section
     }
   }
 }
+
