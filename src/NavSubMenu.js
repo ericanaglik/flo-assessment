@@ -3,7 +3,7 @@ import "./NavSubMenu.scss"
 import LinkWithArrow from "./LinkWithArrow"
 
 const NavSubMenu = (props) => {
-  const { children } = props
+  const { children, shopText } = props
   return (
     <div className="nav-sub-menu">
       <div className="nav-sub-menu-container">
@@ -18,6 +18,9 @@ const NavSubMenu = (props) => {
           ></img>
         </div>
       </div>
+      <a href="url" className="menu-shop-link">
+        {shopText}
+      </a>
     </div>
   )
 }

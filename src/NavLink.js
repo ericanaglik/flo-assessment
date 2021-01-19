@@ -16,7 +16,7 @@ const NavLink = (props) => {
         <div className="hover-bottom"></div>
       </div>
       {children && linkHovered && (
-        <NavSubMenu>
+        <NavSubMenu shopText="Shop Best Sellers">
           <div>{children}</div>
         </NavSubMenu>
       )}
