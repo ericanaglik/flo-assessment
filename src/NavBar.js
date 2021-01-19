@@ -43,6 +43,7 @@ const NavBar = props => {
           </div>
           <div className="cart">
             <FontAwesomeIcon icon={faShoppingCart}/>
+            <p className="shopping-number">0</p>
           </div>
         </div>
       </div>

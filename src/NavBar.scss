@@ -71,6 +71,7 @@
   grid-column-start: 4;
   display: flex;
   align-items: center;
+  font-size: 22px;
 }
 
 input {
@@ -154,4 +155,16 @@ input {
   .logo {
     margin-left: -20px;
   }
+}
+
+.shopping-number {
+  width: 22px;
+  height: 22px;
+  border-radius: 50px;
+  background-color: $yellow;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+  top: 8px;
+  right: 11px;
 }
