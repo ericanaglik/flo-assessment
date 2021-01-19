@@ -8,10 +8,22 @@
   background-color: $subMenuBG;
   height: 450px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-sub-menu-container {
+  display: flex;
+  flex-direction: row;
 }
 
 .shop-arrow-link {
   background-color: white;
   position: absolute;
   padding: 18px;
+
+  a {
+    padding-right: 0px;
+  }
 }
