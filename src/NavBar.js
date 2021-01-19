@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faSearch, faShoppingCart } from "@fortawesome/free-solid-svg-icons"
 import NavLink from "./NavLink"
 import ImageLink from "./ImageLink"
+import LinkUnderline from "./LinkUnderline"
 
 const NavBar = () => {
   return (
@@ -112,6 +113,82 @@ const NavBar = () => {
                     url="url"
                     linkTitle="Multicolor"
                   />
+                </div>
+              </div>
+            </NavLink>
+            <NavLink name="Style" url="url">
+              <div className="link-list-container">
+                <div className="left-link-container">
+                  <p className="cursive-title">Popular</p>
+                  <div className="link-container-text">
+                    <LinkUnderline linkTitle="Best Sellers" url="url" />
+                    <img
+                      className="star-wars"
+                      src="https://cdn.shopify.com/s/files/1/1033/0751/files/StarWars_Logo.svg?v=1596559348"
+                    ></img>
+                    <LinkUnderline linkTitle="Outdoor" url="url" />
+                    <img
+                      className="disney"
+                      src="https://cdn.shopify.com/s/files/1/0284/2666/6115/files/DisneyLogo.svg?v=1588117441"
+                    ></img>
+                  </div>
+                </div>
+                <div className="collections-container">
+                  <p className="cursive-title">Collections</p>
+                  <div className="right-link-container">
+                    <div className="left-links">
+                      <LinkUnderline linkTitle="Moroccan" url="url" />
+                      <LinkUnderline linkTitle="Folk Heritage" url="url" />
+                      <LinkUnderline linkTitle="Traditional" url="url" />
+                      <LinkUnderline linkTitle="Geometric" url="url" />
+                      <LinkUnderline linkTitle="Floral" url="url" />
+                    </div>
+                    <div className="right-links">
+                      <LinkUnderline linkTitle="Bohemian" url="url" />
+                      <LinkUnderline linkTitle="Contemporary" url="url" />
+                      <LinkUnderline linkTitle="Persian" url="url" />
+                      <LinkUnderline linkTitle="Solid & Ombre" url="url" />
+                      <LinkUnderline linkTitle="Transitional" url="url" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </NavLink>
+            <NavLink name="More" url="url">
+              <div className="link-list-container">
+                <div className="left-link-container">
+                  <p className="cursive-title">Featured</p>
+                  <div className="link-container-text">
+                    <LinkUnderline linkTitle="New Arrivals" url="url" />
+                    <LinkUnderline linkTitle="Founder's Farmhouse" url="url" />
+                    <LinkUnderline linkTitle="Outdoor" url="url" />
+                    <LinkUnderline linkTitle="E-Gift Card" url="url" />
+                  </div>
+                </div>
+                <div className="left-link-container">
+                  <p className="cursive-title">Textures</p>
+                  <div className="link-container-text">
+                    <LinkUnderline linkTitle="Chenille" url="url" />
+                    <LinkUnderline linkTitle="Flat Weave" url="url" />
+                    <LinkUnderline linkTitle="Shag" url="url" />
+                    <LinkUnderline linkTitle="Plush" url="url" />
+                    <LinkUnderline linkTitle="Shop All Textures" url="url" />
+                  </div>
+                </div>
+                <div className="left-link-container">
+                  <p className="cursive-title">Category</p>
+                  <div className="link-container-text">
+                    <img
+                      className="star-wars"
+                      src="https://cdn.shopify.com/s/files/1/1033/0751/files/StarWars_Logo.svg?v=1596559348"
+                    ></img>
+                    <LinkUnderline linkTitle="Kids Rugs" url="url" />
+                    <LinkUnderline linkTitle="Cynthia Rowley" url="url" />
+                    <img
+                      className="disney"
+                      src="https://cdn.shopify.com/s/files/1/0284/2666/6115/files/DisneyLogo.svg?v=1588117441"
+                    ></img>
+                  </div>
                 </div>
               </div>
             </NavLink>
