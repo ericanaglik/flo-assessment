@@ -1,22 +1,16 @@
 import React from "react"
 import "./ArticleCard.scss"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons"
+import LinkWithArrow from "./LinkWithArrow"
 
 const ArticleCard = (props) => {
   const { photoURL, titleText, descriptionText } = props
   return (
-    <a className="article-card-container">
+    <div className="article-card-container">
       <img src={photoURL}></img>
       <h3>{titleText}</h3>
       <p>{descriptionText}</p>
-      <a className="read-more">
-        <a href="url">
-          Read More <div className="read-more-underline"></div>
-        </a>
-        <FontAwesomeIcon className="arrow" icon={faChevronRight} />
-      </a>
-    </a>
+      <LinkWithArrow linkText="Read More" url="url" />
+    </div>
   )
 }
 

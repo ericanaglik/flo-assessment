@@ -1,0 +1,40 @@
+@import "_colors.scss";
+@import "_fonts.scss";
+
+a {
+  text-decoration: none;
+  color: $black;
+}
+
+.read-more {
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: 100px 20px;
+  text-align: center;
+  align-items: center;
+
+  a {
+    grid-column: 1;
+    letter-spacing: 1px;
+  }
+
+  .read-more-underline {
+    width: 100%;
+    height: 3px;
+    background-color: $yellow;
+  }
+  .arrow {
+    grid-column: 2;
+    padding-left: 5px;
+    transition: padding-left 0.3s ease;
+  }
+}
+
+.read-more:hover {
+  .arrow {
+    padding-left: 10px;
+  }
+  .read-more-underline {
+    background-color: $darkGray;
+  }
+}
