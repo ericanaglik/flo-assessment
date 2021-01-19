@@ -9,7 +9,7 @@ const NavLink = (props) => {
   return (
     <div
       onMouseEnter={() => setLinkHovered(true)}
-      onMouseLeave={() => setLinkHovered(false)}
+      // onMouseLeave={() => setLinkHovered(false)}
     >
       <div className="link-container">
         <a href={url}>{name}</a>
