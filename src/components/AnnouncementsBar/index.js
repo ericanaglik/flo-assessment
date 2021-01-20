@@ -4,15 +4,15 @@ import "./AnnouncementsBar.scss"
 const AnnouncementsBar = () => {
   // scrollHeight initializes at current scrollY and shouldOpenNav initializes to true
   const [scrollHeight, setScrollHeight] = useState(window.scrollY)
-  const [shouldOpenNav, setShouldOpenNav] = useState(true)
+  const [shouldOpenAnnouncement, setShouldOpenAnnouncement] = useState(true)
 
   useEffect(() => {
     // if the scroll height right now is smaller than before, then it means we are going down and should open the nav!
     const handleScrolling = () => {
       if (scrollHeight > window.scrollY) {
-        setShouldOpenNav(true)
+        setShouldOpenAnnouncement(true)
       } else if (scrollHeight < window.scrollY) {
-        setShouldOpenNav(false)
+        setShouldOpenAnnouncement(false)
       }
       setScrollHeight(window.scrollY)
     }
@@ -27,7 +27,7 @@ const AnnouncementsBar = () => {
 
   return (
     <div>
-      {shouldOpenNav && (
+      {shouldOpenAnnouncement && (
         <div className="announcements-bar">
           <div className="announcements-container">
             <a href="url">COVID-19 Response</a>|
