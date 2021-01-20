@@ -9,7 +9,7 @@ import LinkUnderline from "../LinkUnderline"
 
 const NavBar = () => {
   return (
-    <div>
+    <div className="announcement-nav-container">
       <AnnouncementsBar />
       <div className="nav-wrapper">
         <div className="navbar">

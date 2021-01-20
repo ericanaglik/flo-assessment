@@ -11,7 +11,6 @@ import ArticleCard from "./components/ArticleCard"
 import Footer from "./components/Footer"
 import MobileFooter from "./components/MobileFooter"
 
-console.log(window)
 function App() {
   const [windowDimension, setWindowDimension] = useState()
 
