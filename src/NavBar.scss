@@ -1,5 +1,6 @@
 @import "_colors.scss";
 @import "_fonts.scss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
 
 .nav-wrapper {
   box-shadow: 0 1px 2px 0 rgba(227, 233, 246, 0.75);
@@ -256,6 +257,7 @@ input {
 .link-list-container {
   display: flex;
   text-align: left;
+  margin-top: -25px;
 
   .image-links {
     align-items: flex-start;
@@ -301,4 +303,15 @@ input {
 
 .disney:hover, .star-wars:hover {
   opacity: 70%;
+}
+
+.cursive-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
+
+.image-links {
+  a {
+    font-size: 17px;
+  }
 }
