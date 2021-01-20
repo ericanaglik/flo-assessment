@@ -28,4 +28,23 @@ Creates a link animation where the arrow transitions to the right when hovered. 
 ![LinkWithArrow gif](https://user-images.githubusercontent.com/40673456/105130128-4b9dde00-5a9b-11eb-9b88-c2ac7b7fd55b.gif)
 ## Button
 Creates the yellow, rounded button that appears throughout the site
+## CardSectionWithButton
+I found that there were a lot of similar looking sections that had one difference - the content or the cards inside of them. To optimize my coding, I created this CardSectionWithButton component that has a title, description, and a link button, and takes a children prop that is the cards inside. This component is featured on the sections "Functional and Dog-Approved", "Cleanup Made Easy", and "Pup-Approved Rugs". Component is called in App.js
+## IconCard
+Creates the card(s) found in the Functional and Dog-Approved section.
+## VideoCard
+Creates that card that feature's the videos found in Cleanup Made Easy section
+## ShopCard
+Creates the card that has star ratings and price ranges that is featured in Pup-Approved Rugs section.
+## StarRating
+I had fun with this component. My vision was to create a reusable star rating component that lets you input a number as a rating, and produces 5 font awesome icons in either full star, half star, or empty star depending on the number rating given!
+## CardSection
+This component is just like CardSectionWithButton, but doesn't have the button. Used on the Learn From The Pros section.
+## ArticleCard
+Creates the card that has article images and links found in Learn From The Pros section.
+## Footer and MobileFooter
+Footer component is displayed when the browser is large, and when it shrinks at a certain width, the MobileFooter is displayed instead
+
+
+
 
