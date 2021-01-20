@@ -65,8 +65,12 @@ const MobileFooter = () => {
             </ul>
           </div>
           <h4>SOCIALIZE</h4>
-          <br></br>
-          <br></br>
+          <div className="mobile-social-buttons">
+            <img src="https://cdn.shopify.com/s/files/1/0268/0337/2125/files/Facebook.svg?v=1586385529"></img>
+            <img src="https://cdn.shopify.com/s/files/1/0268/0337/2125/files/Instagram.svg?v=1586385648"></img>
+            <img src="https://cdn.shopify.com/s/files/1/0268/0337/2125/files/Pinterest.svg?v=1586385701"></img>
+            <img src="https://cdn.shopify.com/s/files/1/0268/0337/2125/files/Youtube.svg?v=1586385772"></img>
+          </div>
           <h4>CURRENCY</h4>
           <select name="currency" id="currency">
             <option value="USD">USD</option>
