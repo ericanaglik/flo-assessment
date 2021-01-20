@@ -1,6 +1,8 @@
 ![floassessment](https://user-images.githubusercontent.com/40673456/105126893-8c462900-5a94-11eb-8ef9-d0a7796e0804.png)
 # View the Live Project Here
 [Live Project](https://ericas-flo-assessment.herokuapp.com/)
+<br/>
+Tested on Google Chrome and iPhone 11
 # Description of Components In Order of Visual Appearence on Site
 ## PopUpModal
 [Link to PopUpModal code](https://github.com/ericanaglik/flo-assessment/tree/main/src/components/PopUpModal)<br/>
