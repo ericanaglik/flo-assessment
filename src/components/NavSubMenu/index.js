@@ -1,6 +1,6 @@
 import React from "react"
 import "./NavSubMenu.scss"
-import LinkWithArrow from "./LinkWithArrow"
+import LinkWithArrow from "../LinkWithArrow"
 
 const NavSubMenu = (props) => {
   const { children, shopText } = props

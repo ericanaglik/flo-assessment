@@ -1,9 +1,7 @@
 import React from "react"
 
 const ImageLink = (props) => {
-
-  const {imageURL, url, linkTitle} = props
-
+  const { imageURL, url, linkTitle } = props
   return (
     <div className="image-links">
       <img src={imageURL}></img>

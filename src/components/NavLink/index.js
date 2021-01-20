@@ -1,5 +1,5 @@
 import { React, useState } from "react"
-import NavSubMenu from "./NavSubMenu"
+import NavSubMenu from "../NavSubMenu"
 
 const NavLink = (props) => {
   const { children, name, url, shopText } = props

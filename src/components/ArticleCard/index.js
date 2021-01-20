@@ -1,6 +1,6 @@
 import React from "react"
 import "./ArticleCard.scss"
-import LinkWithArrow from "./LinkWithArrow"
+import LinkWithArrow from "../LinkWithArrow"
 
 const ArticleCard = (props) => {
   const { photoURL, titleText, descriptionText } = props

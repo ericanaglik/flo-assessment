@@ -1,6 +1,6 @@
 import React from "react"
 import "./ShopCard.scss"
-import StarRating from "./StarRating"
+import StarRating from "../StarRating"
 
 const ShopCard = (props) => {
   const { photoURL, titleText, rating, priceRange } = props

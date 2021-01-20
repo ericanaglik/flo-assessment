@@ -1,11 +1,11 @@
 import { React } from "react"
 import "./NavBar.scss"
-import AnnouncementsBar from "./AnnouncementsBar"
+import AnnouncementsBar from "../AnnouncementsBar"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faSearch, faShoppingCart } from "@fortawesome/free-solid-svg-icons"
-import NavLink from "./NavLink"
-import ImageLink from "./ImageLink"
-import LinkUnderline from "./LinkUnderline"
+import NavLink from "../NavLink"
+import ImageLink from "../ImageLink"
+import LinkUnderline from "../LinkUnderline"
 
 const NavBar = () => {
   return (

@@ -1,0 +1,99 @@
+@import "../../_colors.scss";
+@import "../../_fonts.scss";
+
+.functional-dog-approved,
+.pup-approved-rugs,
+.learn-from-the-pros {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+  background-color: $white;
+
+  h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 70px;
+    text-align: center;
+  }
+  button {
+    margin-top: 40px;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+.cleanup-made-easy {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $bgGray;
+  padding-bottom: 80px;
+
+  h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 70px;
+    text-align: center;
+  }
+  button {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .functional-dog-approved {
+    background-color: $bgGray;
+  }
+  .cleanup-made-easy {
+    background-color: $white;
+  }
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 750px) {
+  .pup-approved-rugs {
+    .card-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+  }
+  .functional-dog-approved,
+  .learn-from-the-pros,
+  .cleanup-made-easy {
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
+  .functional-dog-approved,
+  .pup-approved-rugs,
+  .learn-from-the-pros,
+  .cleanup-made-easy {
+    h2,
+    p {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1175px) {
+  .pup-approved-rugs {
+    .card-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react"
-import Button from "./Button"
-import "./CardSection.scss"
+import Button from "../Button"
+import "./CardSectionWithButton.scss"
 
 const CardSectionWithButton = (props) => {
   const {
