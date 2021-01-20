@@ -1,0 +1,106 @@
+@import "../../_colors.scss";
+@import "../../_fonts.scss";
+
+.pop-up-modal {
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+
+
+}
+
+.pop-up-text {
+  height: 497px;
+  max-width: 475px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $darkGray;
+
+  h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: $darkGray;
+  }
+
+  p {
+    width: 320px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    color: $darkGray;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input {
+    border-bottom: 2px solid $darkGray;
+    padding-right: 40px;
+    margin-bottom: 40px;
+  }
+
+  input::placeholder {
+    color: $disclaimerMobileText;
+  }
+
+  .pop-up-disclaimer {
+    font-size: 10px;
+  }
+
+  button {
+    background-color: $darkGray;
+    color: $white;
+    padding: 15px;
+    padding-right: 60px;
+    padding-left: 60px;
+    margin-bottom: 20px;
+  }
+}
+
+.pop-up-image {
+  height: 300px;
+  margin-top: -44px;
+  button {
+    position: relative;
+    top: 50px;
+    left: 290px;
+    font-size: 30px;
+    border-radius: 0px;
+    background-color: transparent;
+    padding: 5px;
+  }
+}
+
+.page-background {
+  background-color:rgba(0, 0, 0, 0.7);
+  position: fixed;
+  z-index: 200;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 765px) {
+  .pop-up-image {
+    img {
+      display: none;
+    }
+    button {
+      position: relative;
+      top: 50px;
+      left: -10px;
+      font-size: 30px;
+      border-radius: 0px;
+      background-color: transparent;
+      padding: 5px;
+    }
+  }
+}

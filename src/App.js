@@ -10,8 +10,11 @@ import ShopCard from "./components/ShopCard"
 import ArticleCard from "./components/ArticleCard"
 import Footer from "./components/Footer"
 import MobileFooter from "./components/MobileFooter"
+import PopUpModal from "./components/PopUpModal"
 
 function App() {
+  const [popUpOpen, setPopUpOpen] = useState(true)
+
   const [windowDimension, setWindowDimension] = useState()
 
   useEffect(() => {
@@ -193,6 +196,7 @@ function App() {
         </div>
       </div>
       {isMobile ? <MobileFooter /> : <Footer />}
+      <PopUpModal show={popUpOpen} onClose={() => setPopUpOpen(false)} />
     </div>
   )
 }
