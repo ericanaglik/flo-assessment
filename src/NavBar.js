@@ -192,6 +192,7 @@ const NavBar = () => {
                 </div>
               </div>
             </NavLink>
+            <NavLink src="url" name="How It Works" />
           </div>
           <div className="search">
             <form>
