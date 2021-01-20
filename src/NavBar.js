@@ -30,7 +30,7 @@ const NavBar = () => {
             ></img>
           </div>
           <div className="nav-links">
-            <NavLink name="Size" url="url">
+            <NavLink name="Size" url="url" shopText="Shop Best Sellers">
               <div className="menu-images-container">
                 <div className="images-top">
                   <ImageLink
@@ -78,7 +78,7 @@ const NavBar = () => {
                 </div>
               </div>
             </NavLink>
-            <NavLink name="Colors" url="url">
+            <NavLink name="Colors" url="url" shopText="Shop All Colors">
               <div className="menu-images-container-colors">
                 <div className="images-top">
                   <ImageLink
@@ -116,7 +116,7 @@ const NavBar = () => {
                 </div>
               </div>
             </NavLink>
-            <NavLink name="Style" url="url">
+            <NavLink name="Style" url="url" shopText="Shop All Styles">
               <div className="link-list-container">
                 <div className="left-link-container">
                   <p className="cursive-title">Popular</p>
@@ -154,7 +154,7 @@ const NavBar = () => {
                 </div>
               </div>
             </NavLink>
-            <NavLink name="More" url="url">
+            <NavLink name="More" url="url" shopText="Shop Best Sellers">
               <div className="link-list-container">
                 <div className="left-link-container">
                   <p className="cursive-title">Featured</p>

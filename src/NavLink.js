@@ -2,7 +2,7 @@ import { React, useState } from "react"
 import NavSubMenu from "./NavSubMenu"
 
 const NavLink = (props) => {
-  const { children, name, url } = props
+  const { children, name, url, shopText } = props
 
   const [linkHovered, setLinkHovered] = useState()
 
@@ -16,7 +16,7 @@ const NavLink = (props) => {
         <div className="hover-bottom"></div>
       </div>
       {children && linkHovered && (
-        <NavSubMenu shopText="Shop Best Sellers">
+        <NavSubMenu shopText={shopText}>
           <div>{children}</div>
         </NavSubMenu>
       )}
