@@ -96,3 +96,11 @@
   background-color: $gray;
   color: $searchIcon;
 }
+
+.social-buttons {
+  display: flex;
+  
+  img {
+    margin-right: 15px;
+  }
+}

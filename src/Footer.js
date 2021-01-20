@@ -75,12 +75,13 @@ const Footer = () => {
               <input type="email" placeholder="Enter your email"></input>
               <button className="email-submit">SUBMIT</button>
             </form>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
             <h4>SOCIALIZE</h4>
+            <div className="social-buttons">
+              <img src="https://cdn.shopify.com/s/files/1/1033/0751/files/Facebook.svg?171772"></img>
+              <img src="https://cdn.shopify.com/s/files/1/1033/0751/files/Insta.svg?171772"></img>
+              <img src="https://cdn.shopify.com/s/files/1/1033/0751/files/Pinterest.svg?171772"></img>
+              <img src="https://cdn.shopify.com/s/files/1/1033/0751/files/Youtube.svg?172176"></img>
+            </div>
           </div>
         </div>
       </div>
