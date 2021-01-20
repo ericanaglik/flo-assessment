@@ -11,7 +11,7 @@ const AnnouncementsBar = () => {
     const handleScrolling = () => {
       if (scrollHeight > window.scrollY) {
         setShouldOpenAnnouncement(true)
-      } else if (scrollHeight < window.scrollY) {
+      } else if (scrollHeight < window.scrollY && scrollHeight > 100) {
         setShouldOpenAnnouncement(false)
       }
       setScrollHeight(window.scrollY)
@@ -26,18 +26,17 @@ const AnnouncementsBar = () => {
   }, [scrollHeight])
 
   return (
-    <div>
-      {shouldOpenAnnouncement && (
-        <div className="announcements-bar">
-          <div className="announcements-container">
-            <a href="url">COVID-19 Response</a>|
-            <a href="url">The Mask Project</a>
-          </div>
-          <div className="referral-container">
-            <a href="url">Refer &amp; Get 15%</a>
-          </div>
-        </div>
-      )}
+    <div
+      className={`announcements-bar ${
+        shouldOpenAnnouncement ? "opening" : "closing"
+      }`}
+    >
+      <div className="announcements-container">
+        <a href="url">COVID-19 Response</a>|<a href="url">The Mask Project</a>
+      </div>
+      <div className="referral-container">
+        <a href="url">Refer &amp; Get 15%</a>
+      </div>
     </div>
   )
 }
